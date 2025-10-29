@@ -1,0 +1,112 @@
+
+h2,h1{
+    /* font-family: 'Brush Script MT', cursive; */
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+
+.main{
+    background-color: white;
+
+
+
+}
+.content_1{
+    padding-left: 10px;
+}
+
+.pig{
+    height: 300px;
+    padding-right: 10px;
+}
+a:hover{
+    background-image: url(./feather1.gif);
+}
+
+body{
+    margin-left: -3px;
+    margin-right: -3px;
+    margin-bottom: -3px;
+}
+
+.title{
+    background-image: url("./large.gif");
+    background-size: cover;
+    padding-bottom: 350px;
+    padding-top: 300px;
+}
+
+.cool-button {
+    background-image: url(./feather.gif);
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 28px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); */
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Indie Flower', cursive;
+}
+
+.cool-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 70%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    transform: skewX(-20deg);
+    transition: left 0.5s ease;
+}
+
+.cool-button:hover::before {
+    left: 125%;
+}
+
+.cool-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+
+}
+
+.sign_in{
+    /* background-image: url("background_image_sign_in.avif2.gif"); */
+    
+    background-size: cover;
+    width: 2000px;
+    border: solid;
+    padding-bottom: 25%;
+    
+
+
+}
+
+.sign_up{
+    background-image: url("background_image_sign_in.avif");
+    background-size: cover;
+    width: 30%  ;
+}
+.hl{
+    padding-top: 200px;
+}
+
+
+
+
+hr{
+    border-color: rgb(0, 0, 0);
+    border-style: dotted;
+    height: 2px;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 2.5%;
+    text-align: center;
+    margin-left: 50%;  
+}
+
